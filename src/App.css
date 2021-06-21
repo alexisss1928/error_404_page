@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500;700&family=Space+Mono:wght@400;700&display=swap");
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: "Inconsolata";
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  letter-spacing: -3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.scarecrow {
+  height: 448px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.scarecrow img {
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.info404 h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 95px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info404 p {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.info404 button {
+  width: 216px;
+  height: 68px;
+  font-family: "Space Mono", monospace;
+  font-size: 14px !important;
+  font-weight: 700;
+}
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #bdbdbd;
+  font-size: 14px;
+  width: 100%;
+  left: 0;
+}
+
+.footer a {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #bdbdbd;
+  font-size: 14px;
 }
